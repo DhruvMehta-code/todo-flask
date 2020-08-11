@@ -1,0 +1,22 @@
+body {
+    background-color: #454A4d;
+  }
+  header{
+    color: #F5F5F5;
+    background-color: #000000;
+    opacity: 0.8;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  .content{
+    margin: 0 auto;
+      width: 20%;
+  }
+  form #update{
+    color: #F5F5F5;
+    background-color: #000000;
+    opacity: 0.6;
+  }
+  form:hover #update{
+    opacity: 0.8;
+  }

@@ -1,0 +1,17 @@
+{%  extends "base.html" %}
+{% block head %} 
+<title>updatepage</title>
+
+<link rel="stylesheet" href="{{ url_for('static' , filename='css/update.css')}}" />
+{%   endblock %}
+{% block body %}
+<header>
+    <h1>Update Task</h1>
+</header>
+<section class="content">
+    <form action="/update/{{  task.id }}" method="POST">
+        <input type="text" name ="user" id="user" value = "{{ task.work }}">
+        <input type="submit" value = "update" id="update" >
+    </form>
+ </section>
+{% endblock %}

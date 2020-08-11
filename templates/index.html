@@ -1,0 +1,43 @@
+{%  extends "base.html" %}
+
+{% block head %} 
+<title>homepage</title>
+<link rel="stylesheet" href="{{ url_for('static' , filename='css/index.css')}}" />
+{%   endblock %}
+
+{% block body %}
+<header>
+    <h1>To-Do List</h1>
+ </header>
+<section class="addval">
+    <form action="/" method="POST">
+        <input type="text" name ="user" id="user">
+        <input type="submit" value = "Add" id="add">
+    </form>
+</section>
+<section class="content">
+<table>
+  <tr id="nav">
+      <th><h2>Task</h2></th>
+      <th><h2>Add</h2></th>
+      <th><h2>Action</h2></th>
+  </tr>
+  {%    for task in tasks   %}
+  
+  <tr>
+      <td>{{  task.work }}
+      </td>
+      <td>{{    task.date_created.date()   }}</td>
+      <td>
+          <div id="link1"><a href="/update/{{ task.id }}" id="update">Update</a></div>
+          <div id="link2"><a href="/delete/{{ task.id }}" id="delet">Delete</a></div>
+      </td>
+  </tr>
+  {%    endfor  %}
+</table>
+</section>    
+
+
+
+
+{% endblock %}

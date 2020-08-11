@@ -1,0 +1,88 @@
+body {
+    background-color: #454A4d;
+  }
+  header{
+    color: #F5F5F5;
+    background-color: #000000;
+    opacity: 0.8;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  form #add{
+    color: #F5F5F5;
+    background-color: #000000;
+    opacity: 0.6;
+  }
+  form:hover #add{
+    opacity: 0.8;
+  }
+  table{
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 65%;
+    padding-bottom: 5%;
+    table-layout: fixed;
+  }
+  .addval {
+    margin: 0 auto;
+      width: 20%;
+  }
+  th{
+    color: #F5F5F5;
+    background-color: #000000;
+    opacity: 0.8;
+    padding: 2%;
+    font-variant: small-caps;
+    font-size: 100%;
+    line-height: 30px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 3px solid #4CAF50;
+  }
+  td{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 120%;
+    border-radius: 0 0 5px 5px;
+    border-bottom: 2px solid #808080;
+  }
+  #link1 #update
+  {
+      font-size: 150%;
+    margin: 20px;
+      width: 15%;
+      height: 30px;
+      border-radius: 5px;
+    color: #F5F5F5;
+      background-color: #000000;
+      opacity: 0.6;
+      text-align: center;
+      padding: 10px 5px;
+      text-decoration: none;
+      font-variant: small-caps; 
+  }
+  #link2 #delet
+  {
+      font-size: 150%;
+    margin: 20px;
+      width: 15%;
+      height: 30px;
+      border-radius: 5px;
+    color: #F5F5F5;
+      background-color: #000000;
+      opacity: 0.6;
+      text-align: center;
+      padding: 10px 5px;
+      text-decoration: none;
+      font-variant: small-caps; 
+  }
+  #link1:hover #update{
+    opacity: 0.8;
+  }
+  #link2:hover #delet{
+    opacity: 0.8;
+  }
+  
