@@ -7,21 +7,19 @@ about flask :
 flask is lightweight web-framework . It has easy syntax and boilerplate. If you know python basic and want to do web-development so you can start with flask , it's easy to learn 
 
 here are boilerplate :
+```
+from flask import Flask #(import flask)
 
-from flask import Flask (import flask)
-
-app = Flask(__name__) (intialize your app in flask)
+app = Flask(__name__) #(intialize your app in flask)
 
 @app.route("/")
-
-def name:
-
+def name():
 	functionality
   
 if __name__ == "__main__":
 
-   app.run(debug=True)    (run application & debug = True means live changes)
-
+   app.run(debug=True)    #(run application & debug = True means live changes)
+```
 
 here is the link :
 
